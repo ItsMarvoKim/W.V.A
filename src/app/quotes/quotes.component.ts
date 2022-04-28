@@ -9,9 +9,9 @@ import { QuoteModel } from '../models/quote.model';
 export class QuotesComponent implements OnInit {
   @Input()
   quotes!: QuoteModel[];
-  constructor() {}
+  constructor() { }
 
-  ngOnInit(): void {}
+  ngOnInit(): void { }
 
   downVote(quote: QuoteModel): void {
     // Reduce the quote's downVotes by 1
