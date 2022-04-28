@@ -8,6 +8,7 @@ export interface QuoteModel {
   submittedBy: string;
 }
 
+
 export class Quote implements QuoteModel {
   id: string;
   quote: string;
