@@ -3,6 +3,7 @@ import { QuoteModel } from './models/quote.model';
 import { QUOTES } from './quote.mock';
 import { QuotesComponent } from './quotes/quotes.component';
 
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
