@@ -1,6 +1,6 @@
-# Quotes
+# W.V.A
 
-### (Quotes MS-Project)
+### (W.V.A MS-Project)
 
 - [Description](#overall-project-description)
 - [Setup instructions](#setup-instructions)
