@@ -1,3 +1,4 @@
+
 <div class="mb-3">
     <label for="author" class="form-label">Author</label>
     <input type="text" class="form-control" id="author" [(ngModel)]="author" required="true" autofocus>
@@ -10,5 +11,5 @@
 <div class="mb-3">
     <label for="quote" class="form-label">Submitted By</label>
     <input class="form-control" id="creator" rows="3" [(ngModel)]="submittedBy" required="true">
-</div> 
+</div>
 <button (click)="createQuote()" class="btn btn-primary" type="submit" data-bs-dismiss="modal">Create Quote</button>
