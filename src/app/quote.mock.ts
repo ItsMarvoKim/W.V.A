@@ -1,5 +1,6 @@
 import { QuoteModel, Quote } from './models/quote.model';
 
+
 export const QUOTES: QuoteModel[] = [
   new Quote(
     '1',
