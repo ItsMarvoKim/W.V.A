@@ -10,14 +10,15 @@
 
 ## Overall Project Description
 
-- Quotes is a simple application that allows users to create and save quotes.
+- Wisewords Vercel App is a simple application that allows users to create, save and delete quotes. Users are able to upvote and downvote quotes as well.
 
 ## Setup Instructions
 
 ### Clone the repository
-HTTPS: `git clone https://github.com/bryanbill/quotes.git`
 
-SSH: `git clone git@github.com:bryanbill/quotes.git`
+HTTPS: `git clone https://github.com/ItsMarvoKim/W.V.A.git`
+
+SSH: `git clone git@github.com:ItsMarvoKim/W.V.A.git`
 ### Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
@@ -67,4 +68,4 @@ Contributions to the project are welcome. Fork this repo to contribute.u
 
 ## Author
 
-- [Brian Omondi](https://github.com/bryanbill)
+- [Marvin Kimathi](https://github.com/ItsMarvoKim)
