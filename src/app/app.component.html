@@ -1,0 +1,44 @@
+<main class="h-100">
+  <section class="w-75 py-12 mx-auto">
+    <div class="">
+      <div class="jumbotron text-center">
+        <h1 class="display-4">Quotes</h1>
+        <p class="lead">
+          Collect your favorite quotes and share them with your friends.
+        </p>
+        <hr class="my-4">
+        <p>
+          <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Create Quote</button>
+
+        </p>
+      </div>
+    </div>
+  </section>
+  <section id="quotes" class="w-75 mx-auto">
+    <div class="row">
+      <div class="col-md-8">
+        <h4>All Quotes</h4>
+        <app-quotes [quotes]='quotes'></app-quotes>
+      </div>
+      <div class="col-md-4">
+        <h4>All Time Favorite</h4>
+        <app-favorite [quote]='favoriteQuote()' appHighlight></app-favorite>
+      </div>
+    </div>
+  </section>
+  <!-- Create Quote Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Create Quote</h5>
+          <button type="button" class="btn btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+        </div>
+        <div class="modal-body">
+          <app-form (newQuoteEvent)="pushQuote($event)"></app-form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
