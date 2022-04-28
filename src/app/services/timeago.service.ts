@@ -1,10 +1,11 @@
 import { Pipe } from '@angular/core';
 
+
 @Pipe({
   name: 'timeago',
 })
 export class TimeagoPipe {
-  // TODO: Refactor this 
+  // TODO: Refactor this
   transform(value: Date, args?: any): string {
     // Get the difference in seconds
     let diff = Math.floor((new Date().getTime() - value.getTime()) / 1000);
